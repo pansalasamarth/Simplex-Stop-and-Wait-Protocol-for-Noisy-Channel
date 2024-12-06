@@ -38,17 +38,12 @@ The receiver program:
 - A Unix-based environment for testing (e.g., Linux, macOS).
 
 ### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<username>/<repository_name>.git
-   cd <repository_name>
-   ```
-2. Compile the programs:
+1. Compile the programs:
    ```bash
    gcc sender.c -o sender
    gcc receiver.c -o receiver
    ```
-3. Open two terminals:
+2. Open two terminals:
    - In the first terminal, run the receiver:
      ```bash
      ./receiver
@@ -57,7 +52,7 @@ The receiver program:
      ```bash
      ./sender
      ```
-4. Observe the communication between the sender and receiver in the terminal outputs.
+3. Observe the communication between the sender and receiver in the terminal outputs.
 
 ## Notes
 - Random behavior is seeded by the program's runtime; results may vary for each run.
